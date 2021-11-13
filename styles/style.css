@@ -1,0 +1,534 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,400;1,500&display=swap");
+
+* {
+  font-family: "Montserrat", "sans serif";
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* ==================== Delivery ====================  */
+#clickHere{
+  display: none;
+}
+.delivery {
+  margin: auto;
+  background-position: center;
+  font-family: "Montserrat", "sans serif";
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 788px;
+  background-image: url(../images/background_farmelhor.svg);
+}
+.row {
+  justify-content: flex-start;
+  padding: 75px 0 0 75px;
+  display: flex;
+  flex-direction: row;
+  color: white;
+  align-content: center;
+  max-width: 62.5%;
+  margin: auto;
+}
+.main {
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  width: 100%;
+}
+.columns {
+  max-width: 100%;
+  margin: 0;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0;
+}
+.withWidget {
+  height: 20px;
+  background-color: #a11317;
+}
+
+.promocional {
+  padding: 75px 0 0 100px;
+  margin: 0;
+  display: flex;
+  justify-content: start;
+  flex-direction: column;
+}
+
+#contact {
+  width: 200px;
+}
+
+#bnc {
+  width: 300px;
+}
+#logo {
+  position: relative;
+  margin: 0 0 0 250px;
+  width: 261px;
+}
+.tel {
+  cursor: pointer;
+  position: relative;
+  border-radius: 4px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: white;
+  border: none;
+  background-color: #ad171c;
+  width: 200px;
+  height: 44px;
+  margin: 0 0 0 75px;
+}
+#columns {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+#boneco {
+  width: 400px;
+}
+
+.boneco {
+  padding: 0;
+}
+
+#ganhe {
+  width: 400px;
+  color: white;
+  font-size: 2.5rem;
+  margin: 0px 0 0 10px;
+}
+#entrega {
+  padding: 10px 10px 15px 0;
+  border-radius: 10px;
+  text-align: left;
+  padding: 10px;
+  color: #db9600;
+  background-color: WHITE;
+  width: 390px;
+  height: 40px;
+}
+.title {
+  padding-left: 15px;
+  font-size: 36px;
+}
+
+#desc {
+  width: 400px;
+  margin-top: 10px;
+}
+
+#whatsapp {
+  cursor: pointer;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  color: white;
+  font-weight: 600;
+  font-size: 1.5rem;
+  height: 60px;
+  width: 280px;
+  border: none;
+  background-color: #25d366;
+  margin: 75px 0 0 70px;
+  border-radius: 30px;
+}
+
+.iconwpp {
+  margin-top: 5px;
+  margin-left: 12px;
+}
+
+#widget {
+  position: relative;
+  top: -130px;
+  border-radius: 10px;
+  flex-direction: row;
+  justify-content: space-around;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  font-size: 1.5rem;
+  margin: auto;
+  width: 835px;
+  height: 100px;
+  background-color: #4d4d4d;
+  padding: 10px;
+}
+
+/* ==================== Sessão de Produtos ====================  */
+
+.images {
+  width: 160px;
+}
+
+.one {
+  padding-top: 25px;
+  padding-bottom: 25px;
+  justify-content: center;
+}
+
+.content {
+  font-weight: 600;
+  margin-top: 80px;
+  font-size: 16px;
+  color: black;
+  text-align: center;
+  flex-direction: row;
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+}
+.descriptionProduct {
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  width: 280px;
+  height: 300px;
+}
+
+.priceBefore {
+  color: #bebebe;
+  font-size: 0.9rem;
+}
+.priceNow {
+  font-size: 1.3rem;
+  font-weight: bold;
+  color: #db9600;
+}
+
+.content.two {
+  margin-bottom: 25px;
+  margin-top: 25px;
+}
+
+/* ==================== Formulário ====================  */
+
+#pedidos {
+  height: 850px;
+  display: flex;
+  flex-direction: row;
+  padding-top: 60px;
+  background-color: #a11317;
+}
+#form {
+  display: flex;
+  width: 300px;
+  flex-direction: column;
+}
+form {
+  height: 400px;
+}
+.inputs {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+  width: 280px;
+  height: 40px;
+  border: none;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.three {
+  margin-bottom: 0;
+  width: 62.5%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+#chamada1 {
+  margin-bottom: 100px;
+  text-align: center;
+  width: 400px;
+}
+
+label {
+  padding: 0px 5px 5px 5px;
+  font-size: 0.7rem;
+  text-align: left;
+  float: right;
+}
+
+#Check {
+  display: flex;
+  margin-left: 10px;
+}
+
+#generate {
+  cursor: pointer;
+  font-size: 1.2rem;
+  color: white;
+  font-weight: bold;
+  background-color: #25d366;
+  border: none;
+  border-radius: 5px;
+  margin: 10px;
+  width: 290px;
+  height: 50px;
+}
+
+.labelForm {
+  font-size: 0.9rem;
+  margin-left: 10px;
+}
+/* ==================== Sessão de Avaliações ====================  */
+.rating {
+  padding: 30px;
+  justify-content: center;
+  color: #f5f5f5;
+}
+
+#RtgText {
+  font-size: 4rem;
+}
+
+#testemunhos {
+  font-size: 1.2rem;
+  margin-top: -70px;
+  text-align: center;
+  color: #858585;
+}
+.img3 {
+  display: none;
+}
+.prints {
+  flex-direction: row;
+  display: flex;
+  justify-content: space-evenly;
+  padding-bottom: 50px;
+}
+
+.row-desc {
+  justify-content: space-evenly;
+  font-size: 0.8rem;
+  padding: 15px 0 0 75px;
+  color: #a11317;
+}
+/* ==================== Rodapé ====================  */
+
+.tel-two {
+  margin-left: 0px;
+}
+
+.footer {
+  padding-top: 40px;
+  color: #a11317;
+  justify-content: space-evenly;
+}
+
+.footerInfo {
+  font-size: 0.8rem;
+  height: 80px;
+  padding-top: 30px;
+}
+
+.pay {
+  position: relative;
+  justify-content: flex-start;
+  padding-top: 30px;
+  color: #a11317;
+  padding-left: 350px;
+}
+
+.cards {
+  padding: 10px 0 75px 0;
+}
+
+.info {
+  border-top: 5px solid #a11317;
+}
+.local {
+  padding-left: 10px;
+  border-bottom: 1px solid #a11317;
+  display: flex;
+  justify-content: space-between;
+}
+
+#casinha {
+  width: 20px;
+  height: 15px;
+  padding: 39px 10px 0 0;
+}
+
+.rowPhone {
+  display: flex;
+  align-items: center;
+}
+
+#phone {
+  padding-right: 10px;
+}
+
+#whatsapp:hover {
+  background-color: #1cdd63;
+}
+
+.tel:hover {
+  background-color: #cf2c32;
+}
+
+@media (max-width: 1145px) {
+    html{
+    
+        font-size:80%;
+    }
+    #clickHere{
+      text-align: center;
+      font-size: 1.1rem;
+    }
+    .tel{
+      margin-left: 0px;
+    }
+
+    #whatsapp{
+      margin-top:30px;
+      margin-left:0;
+    }
+    .row{
+      align-items: center;
+      flex-direction:column;
+      justify-content: center;
+    }
+    #widget{
+      top: -50px;
+    }
+    #logo{
+      padding-top:30px;
+      margin: 0;
+    }
+    .delivery{
+      align-items: center;
+      height:auto;
+        max-width:100%;
+    }
+    #bnc{
+      width:261px;
+    }
+    .row{
+        max-width:500px;
+        padding-left: 0;
+    }
+    .img3{
+      display:inline;
+      width:444px;
+    }
+    .boneco{
+        padding-top: 30px;
+    } 
+    
+    .columns{
+        align-items:center ;
+        justify-content:center;
+    }
+    #widget{
+      margin-top:0;
+      width: 50%;
+    }
+    #entrega{
+        
+        text-align:center;
+    }
+    .title{
+        padding: 0;
+    }
+    .promocional{
+      width:auto;
+      justify-content:center;
+        text-align:center;
+    }
+    .content{
+       width: 98%;
+        justify-content:center;
+    }
+    .descriptionProduct{
+        width:20rem;
+    }
+    #mulher{
+        display:none;
+    }
+
+    .three{
+        justify-content:center;
+        height:600px;
+        padding-top: 0;
+        margin-top:0;
+        align-items:center;
+        width:100%;
+    }
+    #form{
+        padding: 0;
+        justify-content:center;
+    }
+    #chamada1{
+        width:100%;
+        font-size:2rem;
+    }
+    #pedidos{
+      height: 700px;
+    }
+    .one{
+      padding-top: 70px;
+    }
+    .columns{
+      flex-direction:column;
+    }
+}
+
+@media (max-width: 640px){
+  .content{
+    flex-direction:column;
+  }
+  .one{
+    margin:auto;
+  }
+  .descriptionProduct{
+    padding: 20px 0 20px 0;
+    width:100%;
+    border-bottom:2px solid #db9600
+  } 
+
+  .one-two{
+      padding-top: 0px;
+  }
+  #RtgText{
+    font-size:3rem;
+  }
+  .img{
+    padding: 20px;
+  }
+
+  #logoFooter{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .footerInfo{
+    align-items: center;
+    padding: 10px 0 0 0;
+    height:50px;
+  }
+  .rowPhone{
+    padding-top:10px;
+    justify-content: center;
+  }
+  .pay{
+    padding-top:10px;
+  }
+  .local{
+    width:240px;
+    height: 90px;
+  }
+}
+
+
