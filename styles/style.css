@@ -171,6 +171,7 @@ a {
 }
 
 .one {
+  padding:0;
   padding-top: 25px;
   padding-bottom: 25px;
   justify-content: center;
@@ -384,6 +385,7 @@ label {
         font-size:80%;
     }
     #clickHere{
+      display: block;
       text-align: center;
       font-size: 1.1rem;
     }
@@ -401,6 +403,7 @@ label {
       justify-content: center;
     }
     #widget{
+      width:900px;
       top: -50px;
     }
     #logo{
@@ -433,7 +436,8 @@ label {
     }
     #widget{
       margin-top:0;
-      width: 50%;
+      max-width:280px;
+     
     }
     #entrega{
         
@@ -483,9 +487,58 @@ label {
     .columns{
       flex-direction:column;
     }
+    .rating{
+      padding-right: 0;
+      max-width:444px;
+    }
+    #RtgText{
+      text-align: center;
+    }
+    #programa{
+      margin: auto;
+      max-width:444px;
+      text-align: center;
+    }
+
+    /* ====== Footer  ====== */
+    #logoFooter{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+    .footerInfo{
+      align-items: center;
+      padding: 10px 0 0 0;
+      height:50px;
+    }
+    .rowPhone{
+      padding-top:10px;
+      justify-content: center;
+    }
+    .pay{
+      padding-top:10px;
+    }
+    .local{
+      justify-content:center;
+      width:240px;
+      height: 90px;
+    }
+
+    #casinha{
+      padding-top:20px;
+    }
 }
 
 @media (max-width: 640px){
+  .promocional{
+    width:320px;
+  }
+  #boneco{
+    width:300px;
+  }
+  .prints{
+    padding-top:50px;
+  }
   .content{
     flex-direction:column;
   }
@@ -497,17 +550,44 @@ label {
     width:100%;
     border-bottom:2px solid #db9600
   } 
-
+  #ganhe{
+    max-width:310px;
+  }
   .one-two{
       padding-top: 0px;
   }
-  #RtgText{
-    font-size:3rem;
-  }
-  .img{
-    padding: 20px;
+  
+  .rating{
+    padding-right:0px;
   }
 
+  #desc{
+    max-width:320px;
+  }
+  #RtgText{
+    text-align: center;
+    font-size:2rem;
+  }
+  .img{
+    padding: 10px;
+    width: 300px;
+  }
+  #entrega{
+    width:320px;
+    width: 250px
+  }
+  .ava{
+    width: 300px;
+  }
+  #testemunhos{
+    padding-top:50px;
+  }
+  .img{
+    width: 300px;
+  }
+  .title{
+    font-size:2.1rem;
+  }
   #logoFooter{
     display: flex;
     flex-direction: column;
