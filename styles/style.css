@@ -379,6 +379,10 @@ label {
   background-color: #cf2c32;
 }
 
+
+/* ============ BreakPoints ================ */
+
+
 @media (max-width: 1145px) {
   html {
     font-size: 80%;
